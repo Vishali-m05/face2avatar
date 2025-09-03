@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* src/styles/globals.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: "bg.avif";
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.heroSection {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.heroContent {
+  max-width: 960px;
+  width: 100%;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.caption {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.flexRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.instructionsBox {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 1.5rem;
+  border-radius: 10px;
+  max-width: 300px;
+  text-align: left;
+}
+
+.instructionsBox ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.instructionsBox li {
+  margin: 0.5rem 0;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.buttons button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background: #ffffff;
+  color: #333;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.buttons button:hover {
+  background: #ddd;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+video {
+  clear: both;
+  display: block;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
