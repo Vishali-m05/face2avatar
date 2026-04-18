@@ -94,16 +94,7 @@ This project is ideal for entertainment, virtual communication, gaming, and educ
 
 ---
 
-## 🌐 Demo  
 
-By default, this project builds upon the  
-👉 [Mediapipe-Facelandmarker-Demo](https://mediapipe-facelandmark-demo.vercel.app/)  
-
-That demo shows how MediaPipe’s **Face Landmarker model** (52 blendshapes) can animate a 3D avatar face with Ready Player Me models.  
-
-<img src="public/assets/demo/sample.gif" width="640" height="480" />  
-
----
 
 ## 📦 Built With  
 
